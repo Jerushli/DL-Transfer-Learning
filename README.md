@@ -204,7 +204,7 @@ predict_image(model,image_index=25,dataset=test_dataset)
 
 
 ### New Sample Data Prediction
-![image](https://github.com/user-attachments/assets/38ff9ffd-9dba-49e2-a569-320a36eca8be)
+![image](https://github.com/user-attachments/assets/ef9ea3af-6cdb-41d5-bd8a-96cdf5147bbe)
 
 ![image](https://github.com/user-attachments/assets/5ff5cf6b-255e-4ab4-bf4e-d526bafeb919)
 
