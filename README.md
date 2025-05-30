@@ -124,8 +124,8 @@ def train_model(model,train_loader,test_loader,num_epochs=100):
   plt.title("Training and validation Loss")
   plt.legend()
   plt.show()
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
+  print("Name: Jerushlin Jose JB")
+  print("Reg.no: 212222240039")
 device=t.device("cuda" if t.cuda.is_available() else "cpu")
 model=model.to(device)
 train_model(model,train_loader,test_loader)
@@ -162,8 +162,8 @@ def test_model(model,test_loader):
   plt.title("Confusion Matrix")
   plt.show()
 
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
+  print("Name: Jerushlin Jose JB")
+  print("Reg.no: 212222240039")
   print("Classification Report :")
   print(classification_report(all_labels,all_preds,target_names=class_names))
 test_model(model,test_loader)
@@ -206,7 +206,7 @@ predict_image(model,image_index=25,dataset=test_dataset)
 ### New Sample Data Prediction
 ![image](https://github.com/user-attachments/assets/ef9ea3af-6cdb-41d5-bd8a-96cdf5147bbe)
 
-![image](https://github.com/user-attachments/assets/5ff5cf6b-255e-4ab4-bf4e-d526bafeb919)
+![image](https://github.com/user-attachments/assets/ca749638-cee9-48df-8e2b-b2c53b886d0b)
 
 
 ## RESULT
