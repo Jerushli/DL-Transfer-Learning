@@ -178,8 +178,6 @@ def predict_image(model,image_index,dataset):
   class_names=dataset.classes
 
   image_to_display=transforms.ToPILImage()(image)
-  print("Name: YADHAV G P")
-  print("Reg.no: 2122232300247")
   plt.figure(figsize=(4,4))
   plt.imshow(image_to_display)
   plt.title(f'Actual: {class_names[label]}\nPredicted: {class_names[predicted.item()]}')
